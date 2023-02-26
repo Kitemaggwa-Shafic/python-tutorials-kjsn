@@ -15,6 +15,7 @@ def paye():
 print(firstName," yo salary is ", paye())
 '''
 
+'''
 # Simple and better Salary Compiler in python
 print("\n")
 print("=================================================")
@@ -48,37 +49,74 @@ if (totalPayment < 400000):
     print(lastName, "Your Payment Mode is  CASH")
 else:
     print(lastName, "Your Payment Mode is  CHEQUE")
-
+'''
 ####
 ###
 ##
 # Simple and better Grade compiler in python
 # Calculate grade based on average marks in 5 subjects
-print("\n\n") 
-englishMark   = int(input("Enter your mark in English : "))
-mathsMark     = int(input("Enter your mark in Maths : "))
-physicsMark   = int(input("Enter your mark in Physics : "))
-chemistryMark = int(input("Enter your mark in Chemistry : "))
-biologyMark   = int(input("Enter your mark in Biology : "))
+print("\n")
+print("=================================================")
+print("|| KIKANDWA   STUDENTS    GRADING    SYSTEM    ||")
+print("=================================================")
+firstName = (input("Enter First Name : " ) )
+lastName = (input("Enter Last Name : " ))
+stdClass = str(input("Enter Class : " ))
+english   = int(input("Enter English Marks : "))
+maths     = int(input("Enter  Maths Marks : "))
+physics   = int(input("Enter Physics Marks : "))
+chemistry  = int(input("Enter Chemistry Marks : "))
+biology    = int(input("Enter Biology Marks : "))
+history    = int(input("Enter History Marks : "))
+luganda    = int(input("Enter Luganda Marks : "))
+geog    = int(input("Enter Geography Marks : "))
+comm = int(input("Enter Commerce Marks : "))
+comp  = int(input("Enter Computer Marks : "))
+lit = int(input("Enter Literature Marks : "))
+fineArt = int(input("Enter Fine Art Marks : "))
 
-totalMarks = englishMark + mathsMark + physicsMark + chemistryMark + biologyMark
-average = totalMarks / 5
+
+totalMarks = english + maths + physics + chemistry  + biology + history + luganda + geog + comm + comp + lit + fineArt
+average = round((totalMarks / 12),0)
+
+print("-----------------------------")
+print("NAME OF STUDENT : ",firstName, lastName, stdClass)
+print("-----------------------------")
+print("SUBJECT             ", "|MARKS   ", "|GRADE")
+print("-----------------------------")
+print("ENGLISH:             |", english , "%","|" )
+print("MATHEMATICS :        |", maths ,   "%","|")
+print("PHYSICS :            |", physics,  "%","|")
+print("CHEMISTRY :          |", chemistry,"%","|")
+print("BIOLOGY :            |", biology,  "%","|")
+print("HISTORY :            |", history,  "%","|")
+print("GEOGRAPHY :          |", geog,     "%","|")
+print("COMMERCE :           |", comm ,    "%","|")
+print("COMPUTER :           |", comp,     "%","|")
+print("LITERATURE :         |", lit,      "%","|")
+print("FINE ART :           |", fineArt,  "%","|")
+print("_____________________________")
+print("Total Marks scored :  ", totalMarks)
+print("---------------------------- ")
+print("Average scored :    ", average,"%")
 
 if average >= 91 and average <= 100:
-    print("Your Grade is A1")
+    print("Your Grade is D1")
 elif average >= 81 and average < 91:
-    print("Your Grade is A2")
+    print("Your Grade is D2")
 elif average >= 71 and average < 81:
-    print("Your Grade is B1")
+    print("Your Grade is C3")
 elif average >= 61 and average < 71:
-    print("Your Grade is B2")
+    print("Your Grade is C4")
 elif average >= 51 and average < 61:
-    print("Your Grade is C1")
+    print("Your Grade is C5")
 elif average >= 41 and average < 51:
-    print("Your Grade is C2")
+    print("Your Grade is C6")
 elif average >= 33 and average < 41:
-    print("Your Grade is D")
+    print("Your Grade is P7")
+elif average >= 25 and average < 33:
+    print("Your Grade is P8")
 else:
-    print("Fail")
+    print(firstName, lastName ,"","F9 and Fail")
 
 

@@ -5,13 +5,14 @@ if (a > b):
 
 listNumber = [10,20,30,50]
 print(listNumber)
-if(55 in listNumber):
+if(22 in listNumber):
     print('30, is in list of Numbers')
+else:
+    print('that number is not in list of Numbers')
 
 refactoryStudents=['Shafic','Patrick','Malik','Pauline']
 if('Pauline' in refactoryStudents):
     print("Pauline is in Refactory Cohort class")
     print("And shes doing Python")
-print("This statement is out of block")
+print("This statement is out of block") # if block ends above
 
-myNumbers

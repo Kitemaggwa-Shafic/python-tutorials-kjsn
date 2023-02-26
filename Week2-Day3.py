@@ -3,6 +3,11 @@
 # and, assert, break, class, continue, del, if, def, except, final, import, in, is, lambda, raise
 # try, else, or, execept, while, for, from, finally, global, not, pass, print, return, exec, elif
 
+# code a group of statements
+# group of statements related to one another
+# Expression instruction that evaluates to a value or result ie (a = b+c)
+# 
+
 # FUNCTIONS
 '''
 a named group of statements related to one another performing a certain task
