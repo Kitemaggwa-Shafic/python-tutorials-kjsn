@@ -324,7 +324,7 @@ Anna - S6
 # w write infoto the file
 # a append or add newinfo to end of file
 # r+ all power too read and write
-#  syntax
+#  syntax for file open
 '''
 variable = open("fileName_path","mode_of_file")
 '''
