@@ -16,29 +16,7 @@ Copyright by 2 members who design this software
 Deadline: Monday, before 10am
 
 '''
-print('-----HILLARY QUALITY SNACK CENTER DEMO-----')
-customerNames = (input("Enter Customer Names     : "))
-productName =  (input("Enter Commodity Name     : "))
-productPrice = float(input("Enter Price of Commodity : "))
-saleDate = (input("Enter Sale Date        : " ))
-cashierName = (input("Enter Cashier Name      : " ))
  
-# functions for calsulations
-def autoVAT():
-    vat = productPrice * (0.18)
-    return vat
-autoVAT()
-def netSale():
-    netPrice = productPrice - autoVAT()
-    return netPrice
-netSale()
-print("-----------------------------------")
-print(" Customer Name    : ", customerNames) 
-print(" Cashier          : ", cashierName)
-print(" Date             : ", saleDate) 
-print(" Product Net Sale : ", netSale())
-print("-----------------------------------")
-print("All rights reserved: shafic & denis")
 
 
 

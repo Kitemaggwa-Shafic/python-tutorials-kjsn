@@ -346,4 +346,18 @@ student_file.close()
 # at 3:21:27
 
 
+# 3:28:13
+# Modules in python any external script you wanna use inside another py script
+# importing useful data into your python script and use it
+# google list of python modules
+
+
+# 3:43:56
+# Classes and Objects
+# classes 
+
+
+
+
+
 

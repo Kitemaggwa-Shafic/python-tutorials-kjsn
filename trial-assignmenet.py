@@ -42,3 +42,5 @@ def main():
     netPay, deductions = calculateNetPay(grossPay)
     printPayCheck(grossPay, netPay, deductions)
 
+pylint
+auto complete
