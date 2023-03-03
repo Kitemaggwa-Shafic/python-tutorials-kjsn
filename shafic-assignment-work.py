@@ -19,7 +19,8 @@ print(not(matooke > 5000 and rice > 5000) and sugar>5000) # False cause "not" is
 
 #3. Python Comparison Operators
 # Comparison operators compare variables and return a boolean result: True or False.
-# Attempt 3, Here comparing the price of Petrol, paraffin and Diesel in Uganda currently using ">" , "<" , "!=", "<=" , ">=" , "=="
+# Attempt 3, Here comparing the price of Petrol, paraffin and Diesel in 
+#   Uganda currently using ">" , "<" , "!=", "<=" , ">=" , "=="
  
 dieselPx = 4890
 petrolPx = 5250

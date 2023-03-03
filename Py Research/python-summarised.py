@@ -357,7 +357,25 @@ student_file.close()
 # classes 
 
 
+# 3:57:35
+# Buildig a multiple Choice Quiz
+# if, loops, classes and objects
+
+# How can you represent the questios, prompts, answer etc
+# you need to keep track of answers
+# questions =[
+#     "What color are apples?\n(a) Red/Green\n(b) Yellow\n(c) Orange\n\n",
+#     "What color are berries?\n(a) Yellow\n(b) Purple\n(c) Limegreen\n\n",
+#     "What color are mangoes?\n(a) Green\n(b) Yellow\n(c) Mangeta\n\n"
+# ]
 
 
+# 4:08:29
+# Object Functions 
 
+# 4:12:36
+# inheritance
+# where we can define a batch of attribues, functionc in class and acreate another to use all these attributes minus
+# writting out the same again
+# 
 

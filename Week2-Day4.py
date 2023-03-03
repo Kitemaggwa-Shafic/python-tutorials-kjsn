@@ -15,10 +15,6 @@ def add2(num1, num2):  # add2 is a dynamic function, has parameters provided to 
 add2(21,15) #
 add2(100,120)
 
-
-
-
-
 # Subtract Function
 
 def subtract():

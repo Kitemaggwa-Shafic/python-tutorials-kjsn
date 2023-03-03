@@ -17,12 +17,37 @@ Variable programmed named memory space in a PC, Rules of naming variables
 num1 = 10
 num2 = 5
 sum = num1+num2
-print(sum)
+#print(sum)
+
+# This code here adds two numbers together
+num1 = 10           # we declared a variable num1 and assigned it to 10
+num2 = 5
+sum = num1+num2     # Declaring a variable sum and assigning to variables num1 and num2
+print("The sum is" ,sum)          # printing the variable sum
+
+
+
+
+
+
 
 # Declaring all variables at one line
-num3, num4 = 20, 15
-print(num3 + num4)
+num3, num4 = 20, 15   # variables are all declared and assigned along respectively
+sum = num3 + num4     # Declaring a variable sum and assigning to variables num1 and num2
+print("The total is " ,sum)    # printing the variable sum
 
+height = 200   # declaring an integer variable height
+weight = 87.5  # declaring a float variable weight
+myName = "Profic"  # declaring a string variable myName
+print(myName,"You are", height, "cm and you are", weight, "Kgs")
+      
+# Multiple Assignments
+a = b = c = 110   # declaring multiple variables all at once and assigning them to one value
+
+# The result will be the same since all variables are assigned the same value 110
+print (a)   # will print out the value of a
+print (b)   # will print out the value of b
+print (c)   # will print out the value of c
 
 ''' Operators in Python, is something that tells a computer what to do with an operand
 1. An operand is what an operator acts upon ie 20, 15 acted upon by assignment ,

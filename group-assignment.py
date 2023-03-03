@@ -69,7 +69,7 @@ Deadline: Monday, before 10am
 '''
 
 # Final send Group assignment good
-'''
+
 print('-----HILLARY QUALITY SNACK CENTER DEMO-----')
 customerNames = (input("Enter Customer Names   : "))
 productName =  (input("Enter Product Name     : "))
@@ -95,7 +95,7 @@ print(" Product Net Sale : ", netSale())
 print("-----------------------------------")
 print("All rights reserved: shafic & denis")
 
-'''
+
 
 
 

@@ -101,12 +101,12 @@ then you can use the break and continue statements.
 5. The continue statement can be used if you need to skip the current iteration of a for or while loop and move onto the next iteration.
 '''
 # Examples of break
-for letter in 'Kite maggwa':
+for letter in 'Kitemaggwa':
     if letter == "m": # condition to check if letter is "m", will stop,
         break # im instructing that if you reach "m" stop printing letters
     print('letter :', letter)
 
-# using a while loop to increament from 5 to 20
+# using a while loop to increament from 5 to 20 (5,6,7,8, ...,20)
 num = 5
 while num < 20:
     print('My number :', num)
@@ -117,7 +117,7 @@ num = 5
 while num < 20:
     print('Current number :', num)
     num = num + 1
-    if num == 9: # condition to check num is "9", as long as it is
+    if num == 9: # condition to check num is "9", as long as it is (5,6,7,8)
         break   # execution will break here at '8'
 
 # Using Continue

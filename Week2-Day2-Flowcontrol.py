@@ -45,11 +45,11 @@ else:
 woman=['short','tall','fat','thin']
 if('short' in woman):
     if('fat' in woman):
-        print('Man is short and fat')
+        print('Woman is short and fat')
     else:
-            print('Man is just tall')
+            print('woman is just tall')
 else:
-    print('Man is just thin')
+    print('woman is just thin')
 
 
 # Loops are for, while loops

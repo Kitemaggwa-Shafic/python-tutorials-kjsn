@@ -1,0 +1,4 @@
+Shafic is a student at Refactory
+Hes in the Python Cohort
+The class has around 40 students
+

@@ -74,11 +74,12 @@ print(type(cars)) ## for data type => tuple
 print(cars[2]) # ipsum, we look at their results like we in lists
 
 # 7. Dict Data type
+# 
 person = {'name':'Tyna','age':'20','height':'170','gender':'female'} # storing them in key:valuepair
 print(person['name']) # listing the value corresponding to "name" : (result=> Tyna)
-print(type(person)) # for data type => dict for dictionary
-print(person.keys()) # looking at keys in the dict
-print(person.values()) # looking at the values of the keys
+print(type(person)) # for data type => dict for dictionary => <class 'dict'>
+print(person.keys()) # looking at keys in the dict => (['name','age','height','gender'])
+print(person.values()) # looking at the values of the keys => (['Tyna','20','170','female'])
 
 # 8. Set Data type
 oranges = {10, 20, 30, 40, 50, 20, 40, 70}

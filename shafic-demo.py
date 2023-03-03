@@ -15,6 +15,7 @@ def paye():
 print(firstName," yo salary is ", paye())
 '''
 
+# Simple and better Salary Compiler in python
 '''
 # Simple and better Salary Compiler in python
 print("\n")
@@ -60,7 +61,7 @@ print("=================================================")
 print("|| KIKANDWA   STUDENTS    GRADING    SYSTEM    ||")
 print("=================================================")
 firstName = (input("Enter First Name : " ) )
-lastName = (input("Enter Last Name : " ))
+lastName =  (input("Enter Last Name : " ))
 stdClass = str(input("Enter Class : " ))
 english   = int(input("Enter English Marks : "))
 maths     = int(input("Enter  Maths Marks : "))
