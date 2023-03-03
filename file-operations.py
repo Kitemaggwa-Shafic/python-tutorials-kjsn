@@ -2,20 +2,20 @@
 # Add some 3 line of data into the file
 
 
-#Example 1 reading from text files
+# Example 1 reading from text files
 file = open('C:/Users/dell/Desktop/pythonfile.txt', 'r')
-# newdata = file.readlines()
+newdata = file.readlines()
 # newdata.pop() # this will return an empty list [] cause we read all lines and last line had not data / empty
-# print(file.readline(1)) # this will print data in list format and reads only line eg readlines(2), reads 2 lines
-# print(file.read()) # Will print only the data in text files
+print(file.readline(1)) # this will print data in list format and reads only line eg readlines(2), reads 2 lines
+print(file.read()) # Will print only the data in text files
 print(file.readline(5))
 
  
 # Example 2
-# file = open('pythonfile.txt')
+file = open('pythonfile.txt')
 
-# for line in file:
-#      print(line, end='') # end='' so that we dont print out empty spaces
+for line in file:
+     print(line, end='') # end='' so that we dont print out empty spaces
 
 # Example writting to a text file
 # scenario, write a dynamic function
@@ -31,11 +31,11 @@ print(file.readline(5))
 
 #
 
-# firstname = str(input("Enter First Name : " ))
-# with open('C:/Users/dell/Desktop/Refactory.txt', 'w') as file2:
-#     file2.write('\n 1.Man Python is becoming kinda tight now days\n')
-#     file2.write('2.But its you who chose it men!!\n' )
-#     file2.write(firstname)
+firstname = str(input("Enter First Name : " ))
+with open('C:/Users/dell/Desktop/Refactory.txt', 'w') as file2:
+    file2.write('\n 1.Man Python is becoming kinda tight now days\n')
+    file2.write('2.But its you who chose it men!!\n' )
+    file2.write(firstname)
 
 
 # Working with excel files     
